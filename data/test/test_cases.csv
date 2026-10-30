@@ -1,1 +1,6 @@
 test_id,origin,destination,scenario,description,expected_status
+TC001,0,7,single_closure,"Synthetic grid: close edge (0,1) in both directions",pending
+TC002,0,7,multiple_closures,"Synthetic grid: close edges (0,1) and (1,2) in both directions",pending
+TC003,0,7,high_cost,"Synthetic grid: increase the cost of edge (0,1) by a factor of 5",pending
+TC004,0,63,single_closure,"Synthetic grid: close edge (0,1) and test a longer route",pending
+TC005,8,15,high_cost,"Synthetic grid: increase the cost of edge (8,9) by a factor of 5",pending
