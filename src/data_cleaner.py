@@ -139,5 +139,6 @@ def analyze_graph_quality(graph: nx.MultiDiGraph) -> dict:
     Analyze graph quality without changing the original graph.
     """
 
+
     _, report = clean_graph(graph)
     return report
